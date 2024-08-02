@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* NAV styles */
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 30px 25px;
+  height: 60px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.nav--logo_text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-right: auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav--logo_icon {
+  margin: auto -0.6rem auto -0.4rem;
+}
+
+.toggler {
+  display: flex;
+  align-items: center;
+}
+
+.toggler p {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.toggler--slider {
+  width: 25px;
+  height: 13px;
+  background-color: #2B283A;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+
+.toggler--slider--circle {
+  height: 13px;
+  width: 13px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.toggler--light {
+  color: #2B283A;
+}
+
+.toggler--dark {
+  color: #D5D4D8;
+}
+
+/* MAIN styles */
+main {
+  padding: 57px 27px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  flex: 1 1 auto;
+  background-color: white;
+  color: #2B283A;
+}
+
+input {
+  text-decoration: none;
+  border: none;
+  background: none;
+}
+
+input:focus {
+  outline-width: 0;
+}
+
+ul {
+  padding-left: 0;
+} 
+
+li {
+  list-style: none;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2em;
+  padding: 2em;
+}
+
+.card {
+  justify-content: top;
+}
+
+.en {
+  font-style: italic;
+  font-size: small;
+}
+
+.weather-icon {
+  margin-bottom: 0.5rem;
+}
+
+
+nav.dark {
+  background-color: #21222A;
+  color: #DEEBF8;
+  .toggler--slider {
+    justify-content: flex-end;
+    border-color: white;
+    background-color: #F5F5F5;
+  }
+  .toggler--slider--circle {
+    background-color: #2B283A;
+  }
+  .toggler--light {
+    color: #918E9B;
+  }
+  .toggler--dark {
+    color: #FFFFFF;
+  }
+}
+
+main.dark {
+  background-color: #282D35;
+  color: white;  
+  input {
+    color: white;
+  } 
+}
+
+.diagram {
+  display: flex;
+}
+

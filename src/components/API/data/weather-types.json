@@ -1,0 +1,130 @@
+[
+     {
+          "idWeatherType":-99,
+          "icon": "AiOutlineQuestionCircle"
+     },
+     {
+          "idWeatherType":0,
+          "icon": "AiOutlineQuestionCircle"
+     },
+     {
+          "idWeatherType":1,
+          "icon": "WiDaySunny"
+     },
+     {
+          "idWeatherType":2,
+          "icon": "WiDayCloudy"
+     },
+     {
+          "idWeatherType":3,
+          "icon": "WiDaySunnyOvercast"
+     },
+     {
+          "idWeatherType":4,
+          "icon": "WiCloud"
+     },
+     {
+          "idWeatherType":5,
+          "icon": "WiDayCloudyHigh"
+     },
+     {
+          "idWeatherType":6,
+          "icon": "WiDayRain"
+     },
+     {
+          "idWeatherType":7,
+          "icon": "WiDaySprinkle"
+     },
+     {
+          "idWeatherType":8,
+          "icon": "WiDayCloudy"
+     },
+     {
+          "idWeatherType":9,
+          "icon": "WiDayShowers"
+     },
+     {
+          "idWeatherType":10,
+          "icon": "WiDayRainMix"
+     },
+     {
+          "idWeatherType":11,
+          "icon": "WiDayRain"
+     },
+     {
+          "idWeatherType":12,
+          "icon": "WiDayShowers"
+     },
+     {
+          "idWeatherType":13,
+          "icon": "WiDayShowers"
+     },
+     {
+          "idWeatherType":14,
+          "icon": "WiDayRain"
+     },
+     {
+          "idWeatherType":15,
+          "icon": "WiDayShowers"
+     },
+     {
+          "idWeatherType":16,
+          "icon": "WiDayHaze"
+     },
+     {
+          "idWeatherType":17,
+          "icon": "WiDayFog"
+     },
+     {
+          "idWeatherType":18,
+          "icon": "WiDaySnow"
+     },
+     {
+          "idWeatherType":19,
+          "icon": "WiLightning"
+     },
+     {
+          "idWeatherType":20,
+          "icon": "WiDayStormShowers"
+     },
+     {
+          "idWeatherType":21,
+          "icon": "WiDaySleet"
+     },
+     {
+          "idWeatherType":22,
+          "icon": "WiHail"
+     },
+     {
+          "idWeatherType":23,
+          "icon": "WiDayThunderstorm"
+     },
+     {
+          "idWeatherType":24,
+          "icon": "WiCloudy"
+     },
+     {
+          "idWeatherType":25,
+          "icon": "WiCloudy"
+     },
+     {
+          "idWeatherType":26,
+          "icon": "WiFog"
+     },
+     {
+          "idWeatherType":27,
+          "icon": "WiCloud"
+     },
+     {
+          "idWeatherType":28,
+          "icon": "WiDaySnow"
+     },
+     {
+          "idWeatherType":29,
+          "icon": "WiDaySnow"
+     },
+     {
+          "idWeatherType":30,
+          "icon": "WiDaySnow"
+     }
+]
